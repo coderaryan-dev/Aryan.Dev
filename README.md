@@ -1,2 +1,2 @@
 # Aryan.Dev
-Junction 0 to junction hero this repo is only for beginners to expert full-stack Web Dev
+From Junction Zero to Hero — this repository is designed for beginners to grow into expert full-stack web developers.

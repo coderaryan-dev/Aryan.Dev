@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Basics</title>
+
+  <style>
+    /*
+    =========================
+    CSS = Cascading Style Sheets
+    CSS ka use HTML ko design aur style dene ke liye hota hai
+    Jaise: color, size, position, background, etc.
+    =========================
+    */
+
+    /*
+    CSS ka structure:
+
+    selector {
+      property: value;
+    }
+
+    Example:
+    h1 {
+      color: red;
+    }
+
+    yahan:
+    h1      = selector
+    color   = property
+    red     = value
+    */
+
+    /* h1 selector */
+    h1 {
+      color: blue;       /* color = property, blue = value */
+      text-align: center; /* text-align = property, center = value */
+    }
+
+    /* paragraph selector */
+    p {
+      font-size: 18px;    /* font-size = property, 18px = value */
+      color: green;
+    }
+
+    /*
+    Class selector
+    .box ka matlab class="box"
+    */
+    .box {
+      background-color: lightgray;
+      padding: 20px;
+      margin: 20px;
+      border: 2px solid black;
+    }
+
+    /*
+    ID selector
+    #title ka matlab id="title"
+    */
+    #title {
+      color: red;
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Ye heading #title ID se style ho rahi hai -->
+  <h1 id="title">Welcome to CSS</h1>
+
+  <!-- Ye normal paragraph h1 aur p selector se style ho raha hai -->
+  <p>This is a simple paragraph styled using CSS.</p>
+
+  <!-- Ye div .box class se style ho raha hai -->
+  <div class="box">
+    This is a box styled using CSS class.
+  </div>
+
+  <!--
+  Summary:
+
+  Selector = kis element ko style dena hai
+  Property = kya change karna hai
+  Value = us change ka value kya hoga
+
+  Example:
+  p {
+    color: red;
+  }
+
+  p = selector
+  color = property
+  red = value
+  -->
+
+</body>
+</html>

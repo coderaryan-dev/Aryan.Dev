@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags in HTML </title>
+</head>
+
+<body>
+    <header>
+        <!-- <h1>means it is top of the page</h1> -->
+        <h1>This is Header Section</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>This is Main Section</h2>
+        <p>This is a paragraph tag. Paragraph tag is used to write text on the webpage
+        </p>
+        <!-- when You use height in html section then you don't want to write px or pixcels, when you write code in css then you should use px ok! -->
+        <img src="Img.png" alt="Image" height="400">
+    </main>
+    <!-- <footer>Is used for writing links or something like about in your self or more...</footer> -->
+    <footer>
+        <h2>This is Footer Section</h2>
+        <p>&copy; 2026 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

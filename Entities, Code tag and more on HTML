@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Conclusion</title>
+</head>
+
+<body>
+
+    <!-- 
+    <pre> tag text ko exactly waise hi show karta hai jaise likha ho
+    <code> tag programming code dikhane ke liye use hota hai
+    &lt; ka matlab < hota hai
+    &gt; ka matlab > hota hai
+  -->
+
+    <h1>HTML Conclusion</h1>
+
+    <pre>
+This is a PRE tag example.
+It keeps spaces and line breaks.
+  </pre>
+
+    <code>
+&lt;h1&gt;Hello World&lt;/h1&gt;
+  </code>
+
+    <p>
+        HTML is concluded by Aryan Singh.
+        Now CSS will start.
+    </p>
+    <pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+
+</body>
+
+</html>

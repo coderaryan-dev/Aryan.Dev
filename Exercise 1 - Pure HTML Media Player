@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Files</title>
+</head>
+<body>
+    <header>
+        <h1>Media Files Collection</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Six MP3 Files</h2>
+            <p>1.mp3</p>
+            <audio src="#" controls></audio>
+
+            <p>2.mp3</p>
+            <audio src="#" controls></audio>
+
+            <p>3.mp3</p>
+            <audio src="#" controls></audio>
+
+            <p>4.mp3</p>
+            <audio src="#" controls></audio>
+
+            <p>5.mp3</p>
+            <audio src="#" controls></audio>
+
+            <p>6.mp3</p>
+            <audio src="#" controls></audio>
+        </section>
+        <section>
+            <h2>Six MP4 Files</h2>
+            <p>1.mp4</p>
+            <video src="#" controls></video>
+
+            <p>2.mp4</p>
+            <video src="#" controls></video>
+
+            <p>3.mp4</p>
+            <video src="#" controls></video>
+
+            <p>4.mp4</p>
+            <video src="#" controls></video>
+
+            <p>5.mp4</p>
+            <video src="#" controls></video>
+
+            <p>6.mp4</p>
+            <video src="#" controls></video>
+        </section>
+    </main>
+
+    <footer>
+        &copy; Copyright | CWH | All Rights Reserved
+    </footer>
+</body>
+</html>

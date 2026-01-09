@@ -1,0 +1,128 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>All CSS Selectors</title>
+
+<style>
+/* Universal Selector */
+* {
+  font-family: Arial;
+}
+
+/* Element Selector */
+p {
+  color: #333;
+}
+
+/* ID Selector */
+#main {
+  border: 3px solid black;
+  padding: 15px;
+}
+
+/* Class Selector */
+.box {
+  padding: 10px;
+  margin: 10px 0;
+  background: #f1f1f1;
+}
+
+/* Group Selector */
+h1, h2 {
+  color: darkblue;
+}
+
+/* Descendant Selector */
+div p {
+  color: green;
+}
+
+/* Child Selector */
+div > span {
+  color: red;
+  font-weight: bold;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+  border: 2px solid blue;
+  padding: 5px;
+}
+
+/* Pseudo-class */
+button:hover {
+  background: black;
+  color: white;
+}
+
+/* nth-child */
+li:nth-child(2) {
+  color: red;
+  font-weight: bold;
+}
+
+/* first-child */
+li:first-child {
+  color: green;
+}
+
+/* last-child */
+li:last-child {
+  color: purple;
+}
+
+/* Pseudo-element */
+p::first-letter {
+  font-size: 30px;
+  color: red;
+}
+
+/* before */
+h2::before {
+  content: "★ ";
+  color: gold;
+}
+
+/* after */
+h2::after {
+  content: " ✔";
+  color: green;
+}
+</style>
+
+</head>
+<body>
+
+<div id="main">
+  <h1>CSS Selectors Demo</h1>
+
+  <p>This is a normal paragraph.</p>
+
+  <div class="box">
+    <p>This paragraph is inside a div.</p>
+    <span>This is direct child span</span>
+    <div>
+      <span>This is NOT direct child span</span>
+    </div>
+  </div>
+
+  <h2>Form</h2>
+  <input type="text" placeholder="Text input">
+  <input type="password" placeholder="Password">
+
+  <h2>Button</h2>
+  <button>Hover Me</button>
+
+  <h2>List</h2>
+  <ul>
+    <li>Item One</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+    <li>Item Four</li>
+  </ul>
+
+</div>
+
+</body>
+</html>

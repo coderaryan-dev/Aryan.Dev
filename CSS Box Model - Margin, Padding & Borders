@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Box Model Demo</title>
+
+  <style>
+    /* Page ka background */
+    body {
+      background: #1e1e1e;
+      font-family: Arial;
+      color: white;
+    }
+
+    /* Ye outer box hai */
+    .box {
+      width: 200px;          /* Content ka width */
+      height: 100px;         /* Content ka height */
+
+      padding: 20px;         /* Content aur border ke beech ki jagah */
+      border: 5px solid red; /* Box ki boundary (deewar) */
+      margin: 30px;          /* Dusre elements se distance */
+
+      background: #3498db;   /* Content + padding ka color */
+    }
+
+    /* Text ko center mein lane ke liye */
+    .box p {
+      text-align: center;
+      margin: 0;
+      line-height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Ye actual box hai jo screen pe dikhega -->
+  <div class="box">
+    <p>Hello Box Model</p>  <!-- Ye CONTENT hai -->
+  </div>
+
+</body>
+</html>

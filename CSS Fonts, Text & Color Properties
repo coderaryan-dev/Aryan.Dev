@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Fonts, Text & Colors Demo</title>
+
+<style>
+  /* Page base styling */
+  body {
+    background: #0f172a;                 /* Dark blue background */
+    color: white;                       /* Default text color */
+    font-family: "Poppins", Arial, sans-serif;
+    padding: 40px;
+  }
+
+  /* Main heading */
+  h1 {
+    font-size: 42px;                    /* Text size */
+    font-weight: 700;                  /* Boldness */
+    color: #38bdf8;                    /* Text color */
+    text-align: center;                /* Center text */
+    text-transform: uppercase;         /* CAPITAL letters */
+    letter-spacing: 3px;               /* Space between letters */
+    text-shadow: 0 0 15px #38bdf8;       /* Glow effect */
+  }
+
+  /* Paragraph */
+  p {
+    font-size: 18px;
+    font-style: oblique;               /* Slanted text */
+    line-height: 1.8;                  /* Line gap */
+    word-spacing: 5px;                 /* Gap between words */
+    color: #e5e7eb;
+  }
+
+  /* Highlight text */
+  span {
+    color: #22c55e;                    /* Green color */
+    font-weight: bold;
+    text-decoration: underline;       /* Underline */
+  }
+
+  /* Box */
+  .card {
+    background: #020617;
+    padding: 25px;
+    border: 2px solid #38bdf8;
+    border-radius: 10px;
+    width: 60%;
+    margin: 40px auto;
+    box-shadow: 0 0 30px #38bdf8;
+  }
+
+  /* Link styling */
+  a {
+    color: #f97316;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  a:hover {
+    color: #22c55e;
+    text-decoration: underline;
+  }
+
+</style>
+</head>
+
+<body>
+
+  <h1>CSS Fonts, Text & Colors</h1>
+
+  <div class="card">
+    <p>
+      This is a <span>professional demo</span> showing how
+      fonts, colors and text styling work in CSS.
+      Everything here is designed to look <span>modern and intuitive</span>.
+    </p>
+
+    <p>
+      You can upload this project on <a href="#">GitHub</a>
+      and use it for learning and practice.
+    </p>
+  </div>
+
+</body>
+</html>
